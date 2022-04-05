@@ -3,14 +3,14 @@ const footer = require('../common/footer.js');
 const htmlModules = require('./htmlModules.js');
 const { readFileList, readTotalFileWords, readEachFileWords } = require('../webSiteInfo/readFile.js');
 
-const { penName, link, avatar, name, slogan } = require("../common/info");
+const { penName, link, avatar, name, slogan, title } = require("../common/info");
 
 // 主题配置
 module.exports = {
   nav, // 导航栏
   sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-  logo: '/img/index/logo.png', // 导航栏logo
-  repo: 'Kele-Bingtang/Kele-Bingtang.github.io', // 导航栏右侧生成Github链接
+  logo: '/img/logo.png', // 导航栏logo
+  repo: 'huangguan2001', // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '更新时间', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   docsDir: 'docs', // 指定根目录
@@ -66,16 +66,16 @@ module.exports = {
   },
 
   // 私密文章多组用户名密码（提案，未实现）
-//   loginInfo: {
-//     '/private1/': [
-//         { username:'vdoing1', password:'123' },
-//         { username:'vdoing2', password:'123456' },
-//       ],
-//     '/private2/': [
-//         { username:'vdoing1', password:'123' },
-//         { username:'vdoing2', password:'123456' },
-//       ]
-// },
+  //   loginInfo: {
+  //     '/private1/': [
+  //         { username:'vdoing1', password:'123' },
+  //         { username:'vdoing2', password:'123456' },
+  //       ],
+  //     '/private2/': [
+  //         { username:'vdoing1', password:'123' },
+  //         { username:'vdoing2', password:'123456' },
+  //       ]
+  // },
 
   // 私密文章配置
   privatePage: {
@@ -94,14 +94,14 @@ module.exports = {
     bgTimeColor: true,     // 是否开启图片的背景色随一天的不同时间而变化，并且开启时间窗口提示，默认是 false。时间分为四种：白天（原图）、黄昏（偏黄）、晚上（偏黑）、深夜（偏深黑）
     bgTimeColorArray: ['transparent', 'transparent', 'transparent', 'transparent'],   // 第一个是白天的颜色（默认原图），第二个是黄昏的颜色，第三个是晚上的颜色，第四个是深夜的颜色。bgTimeColor 为 true 生效
     descFade: true,   // 是否开启图片中间描述的淡入淡出效果，默认为 false
-    desc: ["故事由我书写，旅程由你见证，传奇由她聆听 —— 来自 Young Kbt", "积跬步以至千里，致敬每个爱学习的你 —— 来自 Evan Xu", "这一生波澜壮阔或是不惊都没问题 —— 来自 Weibw"],  // 多条描述，如果填写则覆盖 index.md 的 tagline，不填写则默认读取 index.md 的 tagline，descFadeIn 为 true 生效
+    desc: ["你所有的悲伤都是源于技术的不足 —— 来自 村长"],  // 多条描述，如果填写则覆盖 index.md 的 tagline，不填写则默认读取 index.md 的 tagline，descFadeIn 为 true 生效
     descFontSize: '1.4rem',   // desc 的字体大小，默认 1.4rem。提示：原主题是 1.1rem
     descFadeInTime: 200,  // 描述的淡入效果持续时间，descFade 为 true 生效，默认 200 毫秒
     descFadeOutTime: 100,  // 描述的淡出效果持续时间，descFade 为 true 生效，默认 100 毫秒
     descNextTime: 800,  // 当有多个 desc 时，一个 desc 展示完后或准备开始时，多少时间后出现下一个 desc，默认 800 毫秒
-    bubble: false,    // 是否开启图片的气泡效果，默认为 false
+    bubble: true,    // 是否开启图片的气泡效果，默认为 false
     bubblePosition: 0,  // 气泡效果的位置，范围：0-100，不同数值代表不同的起始位置，0是整个图片，50是半张图（一半的下方）。bubble 为 true 生效。默认是 0
-    bubbleNum: 200,   // 气泡的个数，bubble 为 true 生效，默认 200 个
+    bubbleNum: 66,   // 气泡的个数，bubble 为 true 生效，默认 200 个
   },
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
@@ -121,27 +121,27 @@ module.exports = {
       {
         iconClass: 'icon-github',
         title: 'GitHub',
-        link: 'https://github.com/kele-bingtang',
+        link: 'https://github.com/huangguan2001',
       },
       {
         iconClass: 'icon-gitee',
         title: 'Gitee',
-        link: 'https://gitee.com/kele-bingtang',
-      },
-      {
-        iconClass: 'icon-rss',
-        title: '网站首页',
-        link: 'https://www.youngkbt.cn',
+        link: 'https://gitee.com/huangguan2001',
       },
       {
         iconClass: 'icon-QQ',
         title: 'QQ',
-        link: 'http://wpa.qq.com/msgrd?v=3&uin=28761025&site=qq&menu=yes',
+        link: 'tencent://message/?uin=64867944&Site=&Menu=yes',
       },
       {
         iconClass: 'icon-youjian',
         title: '联系我',
-        link: 'https://www.youngkbt.cn/?contact=true',
+        link: 'mailto:64867944@qq.com',
+      },
+      {
+        iconClass: 'icon-erji',
+        title: '音乐',
+        link: 'https://music.163.com/#/user/home?id=365907246',
       },
     ],
   },

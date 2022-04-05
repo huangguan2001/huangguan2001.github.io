@@ -1,5 +1,5 @@
 <template>
-  <!-- Young Kbt -->
+  <!-- 村长 -->
   <div class="web-info card-box">
     <div class="webinfo-title">
       <i
@@ -60,7 +60,7 @@ let busuanzi; // 统计量
 export default {
   data() {
     return {
-      // Young Kbt
+      // 村长
       mdFileCount: 0, // markdown 文档总数
       createToNowDay: 0, // 博客创建时间距今多少天
       lastActiveDate: "", // 最后活动时间
@@ -74,7 +74,7 @@ export default {
     },
   },
   mounted() {
-    // Young Kbt
+    // 村长
     if (Object.keys(this.$themeConfig.blogInfo).length > 0) {
       const {
         blogCreate,

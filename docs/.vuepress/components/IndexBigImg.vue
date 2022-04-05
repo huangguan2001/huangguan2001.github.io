@@ -91,9 +91,9 @@ export default {
           : this.$themeConfig.indexImg.bubbleNum;
     }
     // 初始化
-    if (bgTimeColor) {
-      this.bgTimeColor(bgTimeColorArray);
-    }
+    // if (bgTimeColor) {
+    //   this.bgTimeColor(bgTimeColorArray);
+    // }
     setTimeout(() => {
       this.noBgBlur();
     }, 100);

@@ -8,7 +8,7 @@ module.exports = {
   theme: 'vdoing', // 使用npm包主题
   // 如果使用 locales 的 title 和 description，则下方的 title 和 description 失效
   // title: penName + title,
-  // description: '个人博客, VuePress搭建, 使用了 Vdoing 主题, 学习Java, Web, 框架, 微服务, 工具, 前端等相关知识, 记录生活和技术路程, 同时分享编程技巧。',
+  // description: '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown',
   // lang: 'zh-CN',
   // base: '/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
@@ -19,12 +19,12 @@ module.exports = {
     '/': {
       lang: 'zh-CN',
       title: penName + title,
-      description: 'Young Kbt个人博客, VuePress搭建, 使用了 Vdoing 主题, 学习Java, Web, 框架, 微服务, 工具, 前端等相关知识, 记录生活和技术路程, 同时分享编程技巧。'
+      description: '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown'
     },
     // '/en/': {
     //   lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
     //   title: penName + title,
-    //   description: 'Young Kbt personal blog, built by vuepress, uses the vdoing theme to learn Java, web, framework, microservices, tools, front-end and other related knowledge, record life and technology journey, and share programming skills at the same time'
+    //   description: 'Evan Huang personal blog, built by vuepress, uses the vdoing theme to learn Java, web, framework, microservices, tools, front-end and other related knowledge, record life and technology journey, and share programming skills at the same time'
     // }
   },
   head,

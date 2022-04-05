@@ -5,19 +5,19 @@ const indexTip = false;  // 首页是否开启时间消息提示，默认 false�
 export default {
   mounted() {
     // 首页不弹出消息提示，因为首页大图模块已经内置首页的消息提示
-    if (indexTip || this.$route.path != "/") {
-      this.bgTimeColor();
-    }
+    // if (indexTip || this.$route.path != "/") {
+    //   this.bgTimeColor();
+    // }
   },
   watch: {
     $route(to, from) {
       let gloablTip = document.getElementsByClassName("gloablTip");
       // 如果已经存在一个消息提示，则不会重新弹出，除非消息提示已经消失
-      if(gloablTip.length <= 0){
-        if (indexTip || (this.$route.path != "/" && this.$route.hash == "")) {
-          this.bgTimeColor();
-        }
-      }
+      // if(gloablTip.length <= 0){
+      //   if (indexTip || (this.$route.path != "/" && this.$route.hash == "")) {
+      //     this.bgTimeColor();
+      //   }
+      // }
     },
   },
   methods: {

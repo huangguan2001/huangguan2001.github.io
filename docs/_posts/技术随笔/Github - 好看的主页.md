@@ -16,7 +16,7 @@ tags:
 
 ::: right
 
-2022-01-09 @Young Kbt
+2022-01-09 @村长
 
 :::
 
@@ -32,7 +32,7 @@ tags:
 
 ![image-20220109174056830](https://cdn.jsdelivr.net/gh/Kele-Bingtang/static/img/github/20220109174059.png)
 
-你也可以直接去我的主页查看效果：<https://github.com/Kele-Bingtang>
+你也可以直接去我的主页查看效果：<https://github.com/huangguan2001>
 
 ## 如何使用
 
@@ -49,11 +49,11 @@ tags:
 我的 README 文件内容：
 
 ```md
-<a href="https://github.com/Kele-Bingtang/">
+<a href="https://github.com/huangguan2001/">
   <img align="right" src="https://github-readme-stats.vercel.app/api?username=Kele-Bingtang&theme=algolia&count_private=true&show_icons=true" />
 </a>
 
-<a href="https://github.com/Kele-Bingtang/">
+<a href="https://github.com/huangguan2001/">
   <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kele-Bingtang&layout=compact" />
 </a>
 

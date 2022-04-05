@@ -1,17 +1,7 @@
-欢迎来到我的博客，请放下浮躁，细细品尝她，希望不会让你失望。
+欢迎来到我的博客。
 
-1️⃣ 主地址(快)：<https://notes.youngkbt.cn/>
+1️⃣ 主地址(快)：<https://huangguanhao.com/>
 
-2️⃣ GitHub Pages 地址(中、快)：<https://github.notes.youngkbt.cn/>
-
-3️⃣ Gitee Pages 地址(快)：<http://gitee.notes.youngkbt.cn/>
-
-4️⃣ 个人服务器地址(慢)：<https://server.notes.youngkbt.cn/>
-
-
-
-hahahahhahaahhahahahahah
-TEST
 
 ## 目录页的front matter
 

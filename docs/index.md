@@ -1,8 +1,8 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: Young Kbt blog
-tagline: 故事由我书写，旅程由你见证，传奇由她聆听。
+heroText: 村长
+tagline: 你所有的悲伤都是源于技术的不足。
 
 pageClass: vdoing-index-class
 

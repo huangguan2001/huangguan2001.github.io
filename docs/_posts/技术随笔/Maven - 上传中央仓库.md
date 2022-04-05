@@ -16,7 +16,7 @@ sidebar: auto
 
 ::: right
 
-2022-02-07 @Young Kbt
+2022-02-07 @村长
 
 :::
 
@@ -194,7 +194,7 @@ Sonatype 账号和密码就是在工单管理注册的账号和密码。
 <version>1.4</version>
 <name>dbdtobean-spring-boot-autoconfigure</name>
 <description>Read the table fields of the database and generate entity class files and curd class files of controller, service, Dao and mapper layers</description>
-<url>https://github.com/Kele-Bingtang/DBDToBean</url>
+<url>https://github.com/huangguan2001/DBDToBean</url>
 ```
 
 配置 `licenses`，这里直接使用 apache 提供的（**无需修改**）
@@ -215,9 +215,9 @@ Sonatype 账号和密码就是在工单管理注册的账号和密码。
 <scm>
     <tag>master</tag>
     <!-- 项目的 Git 地址 -->
-    <url>https://github.com/Kele-Bingtang/dbdtobean-spring-boot-autoconfigure</url>
+    <url>https://github.com/huangguan2001/dbdtobean-spring-boot-autoconfigure</url>
     <!-- 项目的 http Git 地址 -->
-    <connection>https://github.com/Kele-Bingtang/dbdtobean-spring-boot-autoconfigure.git</connection>
+    <connection>https://github.com/huangguan2001/dbdtobean-spring-boot-autoconfigure.git</connection>
 </scm>
 ```
 
@@ -345,7 +345,7 @@ Sonatype 账号和密码就是在工单管理注册的账号和密码。
     <version>1.4</version>
     <name>dbdtobean</name>
     <description>Read the table fields of the database and generate entity class files and curd class files of controller, service, Dao and mapper layers</description>
-    <url>https://github.com/Kele-Bingtang/DBDToBean</url>
+    <url>https://github.com/huangguan2001/DBDToBean</url>
     
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -365,9 +365,9 @@ Sonatype 账号和密码就是在工单管理注册的账号和密码。
     <scm>
         <tag>master</tag>
         <!-- 项目的 Git 地址 -->
-        <url>https://github.com/Kele-Bingtang/DBDToBean</url>
+        <url>https://github.com/huangguan2001/DBDToBean</url>
         <!-- 项目的 http Git 地址 -->
-        <connection>https://github.com/Kele-Bingtang/DBDToBean.git</connection>
+        <connection>https://github.com/huangguan2001/DBDToBean.git</connection>
     </scm>
 
     <repositories>
