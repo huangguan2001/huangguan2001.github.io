@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: 村长
+heroText: 村长的菜鸟驿站
 tagline: 你所有的悲伤都是源于技术的不足。
 
 pageClass: vdoing-index-class
