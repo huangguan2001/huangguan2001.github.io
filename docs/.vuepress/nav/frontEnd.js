@@ -5,8 +5,8 @@ module.exports = {
     {
       text: '基础',
       items: [
-        { text: 'Html', link: '/html/' },
-        { text: 'css', link: '/css/' },
+        { text: 'HTML', link: '/html/' },
+        { text: 'CSS', link: '/css/' },
         { text: 'JavaScript', link: '/javascript/' },
       ]
     },
