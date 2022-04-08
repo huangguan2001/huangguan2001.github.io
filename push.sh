@@ -4,7 +4,8 @@
 
 GITHUB_REPO=git@github.com:huangguan2001/huangguan2001.github.io.git
 
-# GITEE_REPO=git@gitee.com:kele-bingtang/Kele-Bingtang.git
+GITEE_REPO=git@gitee.com:huangguan2001/huangguan2001.gitee.io.git
+
 
 comment=$1
 

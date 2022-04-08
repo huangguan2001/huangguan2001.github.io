@@ -16,7 +16,7 @@ echo 'huangguanhao.com' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy 脚本部署'
   githubUrl=git@github.com:huangguan2001/huangguan2001.github.io.git
-  # giteeUrl=git@gitee.com:kele-bingtang/Kele-Bingtang.git
+  giteeUrl=git@gitee.com:huangguan2001/huangguan2001.gitee.io.git
 else
   msg='来自 Github actions 的自动部署'
   githubUrl=https://huangguan2001:${GITHUB_TOKEN}@github.com/huangguan2001/huangguan2001.github.io.git
@@ -28,7 +28,7 @@ git add -A
 git commit -m "${msg}"
 git push -f $githubUrl master:gh-pages # 推送到 Github gh-pages 分支
 
-# git push -f $giteeUrl master:gh-pages # 推送到 Gitee gh-pages 分支
+git push -f $giteeUrl master:gh-pages # 推送到 Gitee gh-pages 分支
 
 # deploy to coding pages
 # echo 'www.huangguanhao.cn\huangguanhao.cn' > CNAME  # 自定义域名
